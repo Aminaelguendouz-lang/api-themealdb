@@ -1,0 +1,17 @@
+{
+  "name": "api-themealdb",
+  "version": "1.0.0",
+  "description": "API Node.js / Express qui nettoie, filtre et calcule des statistiques sur les recettes de TheMealDB",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "author": "Amina El Guendouz",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}
